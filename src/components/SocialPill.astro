@@ -1,0 +1,17 @@
+---
+import LinkedInIcon from '../components/icons/LinkedIn.astro';
+---
+<a 
+    class="
+        rounded-full border border-white/10 
+        flex justify-center items-center gap-x-2 
+        py-1 px-2 md:py-2 md:px-4  
+        text-xs md:text-base
+        bg-white/5 hover:scaled-110 transition hover:bg-white/10" 
+    {...Astro.props} 
+    target="_blank"
+    rel="noopener noreferrer"
+>
+    <slot />
+    
+</a>
